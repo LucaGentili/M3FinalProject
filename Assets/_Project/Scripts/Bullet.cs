@@ -16,13 +16,16 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
-            Enemy enm = collision.gameObject.GetComponent<Enemy>();
-            enm.TakeDamage(bulletDamage);
-            if (enm.IsAlive())
+            Enemy enm = collision.collider.GetComponent<Enemy>();
+            LifeController lifeEnemy = collision.collider.GetComponent<LifeController>();
+            if (lifeEnemy != null && enm != null)
             {
-                enm.Die();
+                lifeEnemy.TakeDamage(bulletDamage);
+                if (lifeEnemy.IsAlive())
+                {
+                    enm.Die();
+                }
             }
-            Destroy(gameObject);
         }
         Destroy(gameObject);
     }

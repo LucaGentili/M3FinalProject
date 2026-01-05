@@ -3,32 +3,22 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
 
-public class Player : LifeController
+public class Player : MonoBehaviour
 {
     private float _speed = 2f;
     [SerializeField] private float _h, _v;
     private Rigidbody2D _rb;
-    private LifeController lifePlayer;
+    private Animations _animations;
     public Vector2 direction { get; private set; }
     public bool walking = false;
 
     void Awake()
-    {
-        lifePlayer = GetComponent<LifeController>();   
+    {   
         _rb = GetComponent<Rigidbody2D>();
+        _animations = GetComponentInChildren<Animations>();
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if(collision.gameObject.CompareTag("Enemy"))
-        {
-            lifePlayer.TakeDamage(lifePlayer.hp);
-            if(lifePlayer.IsAlive())
-            {
-                Die();
-            }
-        }
-    }
-    public override void Die()
+   
+    public void Die()
     {
         Destroy(gameObject);
     }
@@ -39,6 +29,7 @@ public class Player : LifeController
 
         direction = new Vector2(_h, _v);
         walking = direction != Vector2.zero;
+        _animations.SetDirectionAndSetMoving(direction);
     }
     void FixedUpdate()
     {

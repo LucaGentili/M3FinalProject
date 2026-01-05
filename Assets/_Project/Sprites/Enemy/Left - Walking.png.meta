@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4cb33ee5f0c93ff40840f6e5b9e81f8c
+guid: a902db3370421f04fa1a27853d6587cd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,421 +97,421 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Front - Walking_0
+      name: Left - Walking_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 2016
-        width: 197
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee11baf2775138c42a8b90131a64e841
-      internalID: 1549118626
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_1
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 2006
+        x: 155
+        y: 2007
         width: 187
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ab456970f3629848a1761019fcd8a34
-      internalID: 2049849608
+      spriteID: 747f0fdcdb037b745b642bf2face809a
+      internalID: 267382576
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_2
+      name: Left - Walking_1
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 2006
+        x: 633
+        y: 2007
+        width: 188
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d4d14ddf1264d4c9fd0678f8610b0c
+      internalID: 1811229748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_2
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 2007
         width: 187
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a364d207cff40954bb1df4efb340091b
-      internalID: 1820849170
+      spriteID: 75c6388ef4575bd4ba8e660f99e9c4f3
+      internalID: -1928567062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_3
+      name: Left - Walking_3
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 2006
-        width: 197
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1591
+        y: 2007
+        width: 186
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13d5833ef67b632469fcf4f712ac2c4f
-      internalID: 1814400749
+      spriteID: 88b4cfd334d02aa43a3a7b7a9c417a12
+      internalID: 100897749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_4
+      name: Left - Walking_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1519
-        width: 197
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 150
+        y: 1527
+        width: 185
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba8b65387fd74514fb25595f1512e03e
-      internalID: 488314698
+      spriteID: 02b4912cf0502254aa70d22030cc8333
+      internalID: -2070417738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_5
+      name: Left - Walking_5
       rect:
         serializedVersion: 2
-        x: 628
-        y: 1519
-        width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 714ae4dca657caa4c981e9379d1e5805
-      internalID: 915315908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_6
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 1519
-        width: 187
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 78d1a6822d27f2441929e7a14dccd935
-      internalID: 1358285632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_7
-      rect:
-        serializedVersion: 2
-        x: 1583
+        x: 629
         y: 1528
-        width: 197
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 183
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4ac8123f8196e46be6a1238e51c4eb
-      internalID: 1702128176
+      spriteID: f91c029186637b74992a3d9c6063515a
+      internalID: -1964739736
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_8
+      name: Left - Walking_6
       rect:
         serializedVersion: 2
-        x: 140
+        x: 1110
+        y: 1529
+        width: 185
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cea5d876fc1c06489c4be09e13f8ac5
+      internalID: 1813270377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_7
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1529
+        width: 186
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892d79592cf2f3045ad7dc25811b5712
+      internalID: -1209555661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_8
+      rect:
+        serializedVersion: 2
+        x: 152
         y: 1050
-        width: 197
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 462aae1b4fab3924a9a78e9db897f311
-      internalID: 1600769593
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_9
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 1050
         width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8f5133b1637019499d5d17790354d6c
-      internalID: -634795191
+      spriteID: 162658af178d1db4585b34ece62e7b8c
+      internalID: -1080789701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_10
+      name: Left - Walking_9
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 1050
+        x: 633
+        y: 1052
+        width: 188
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35d3639d98748046aacb63ac79cf5af
+      internalID: -1177802730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_10
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1054
         width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 282
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7a28587deb57bd49ae7681cd9d627c3
-      internalID: 1867615347
+      spriteID: 88e956e806603234aa13e7fc13a45e1b
+      internalID: 617001323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_11
+      name: Left - Walking_11
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 1050
-        width: 197
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1593
+        y: 1052
+        width: 188
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fab0cfd1fbfc34469252fc531cbea46
-      internalID: -1745871930
+      spriteID: 4dc5224ce24f9034b965194a898bf7a9
+      internalID: 898793277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_12
+      name: Left - Walking_12
       rect:
         serializedVersion: 2
-        x: 140
-        y: 563
-        width: 197
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f76bbe68d0ec836449c9f19f35fb0fa9
-      internalID: -1362826599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_13
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 563
+        x: 152
+        y: 571
         width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 283
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f060f20a13fa584e8b6741b5b70a11d
-      internalID: 1393947145
+      spriteID: 1b807d61aefad4b48af3c93060ddd49c
+      internalID: 1110123041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_14
+      name: Left - Walking_13
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 563
+        x: 631
+        y: 570
+        width: 186
+        height: 284
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be27530313d934f9050669c241c72d
+      internalID: -1440418695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_14
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 568
+        width: 185
+        height: 285
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6032297b8b60f429ad8f35264bd720
+      internalID: 30458241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_15
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 567
+        width: 183
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd60c707159b0154eaad82615563fee6
+      internalID: 457844347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_16
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 87
+        width: 185
+        height: 286
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f855aee59f40147993b7bf2840615b
+      internalID: 955465843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_17
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 87
+        width: 186
+        height: 287
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e89550fe308c0243a820f0256b20c1d
+      internalID: -256060513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Left - Walking_18
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 87
         width: 187
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 288
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abd000e34ac917a46b6adc9c81bbd60a
-      internalID: 1604921424
+      spriteID: 9c1340ce25846334ebffd26b232d49b6
+      internalID: 649192819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Front - Walking_15
+      name: Left - Walking_19
       rect:
         serializedVersion: 2
-        x: 1583
-        y: 563
-        width: 197
-        height: 309
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1593
+        y: 87
+        width: 188
+        height: 289
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 713e5c7b7e36d5747b6d8721082ed9e1
-      internalID: 882643823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_16
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 84
-        width: 197
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f71795a6be3b874a8994aa741453cbd
-      internalID: -1822925216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_17
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 84
-        width: 187
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 701a4734afdce3f4caf94e55b87b3541
-      internalID: 1685572998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_18
-      rect:
-        serializedVersion: 2
-        x: 1105
-        y: 84
-        width: 187
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cd36470729db584c8a5fe98befe6559
-      internalID: 1107674926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Front - Walking_19
-      rect:
-        serializedVersion: 2
-        x: 1583
-        y: 84
-        width: 197
-        height: 310
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 42f40eb41836b0047aebad9528a58679
-      internalID: -380195204
+      spriteID: 9fb4a5a1018ba75448dd904d6c301880
+      internalID: -1351300745
       vertices: []
       indices: 
       edges: []
@@ -527,26 +527,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Front - Walking_0: 1549118626
-      Front - Walking_1: 2049849608
-      Front - Walking_10: 1867615347
-      Front - Walking_11: -1745871930
-      Front - Walking_12: -1362826599
-      Front - Walking_13: 1393947145
-      Front - Walking_14: 1604921424
-      Front - Walking_15: 882643823
-      Front - Walking_16: -1822925216
-      Front - Walking_17: 1685572998
-      Front - Walking_18: 1107674926
-      Front - Walking_19: -380195204
-      Front - Walking_2: 1820849170
-      Front - Walking_3: 1814400749
-      Front - Walking_4: 488314698
-      Front - Walking_5: 915315908
-      Front - Walking_6: 1358285632
-      Front - Walking_7: 1702128176
-      Front - Walking_8: 1600769593
-      Front - Walking_9: -634795191
+      Left - Walking_0: 267382576
+      Left - Walking_1: 1811229748
+      Left - Walking_10: 617001323
+      Left - Walking_11: 898793277
+      Left - Walking_12: 1110123041
+      Left - Walking_13: -1440418695
+      Left - Walking_14: 30458241
+      Left - Walking_15: 457844347
+      Left - Walking_16: 955465843
+      Left - Walking_17: -256060513
+      Left - Walking_18: 649192819
+      Left - Walking_19: -1351300745
+      Left - Walking_2: -1928567062
+      Left - Walking_3: 100897749
+      Left - Walking_4: -2070417738
+      Left - Walking_5: -1964739736
+      Left - Walking_6: 1813270377
+      Left - Walking_7: -1209555661
+      Left - Walking_8: -1080789701
+      Left - Walking_9: -1177802730
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

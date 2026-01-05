@@ -16,8 +16,4 @@ public class LifeController : MonoBehaviour
         return hp > 0;
     }
 
-    public virtual void Die()
-    {
-
-    }
 }

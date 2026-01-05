@@ -3,28 +3,40 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Enemy : LifeController
+public class Enemy : MonoBehaviour
 {
     [SerializeField] public float rangeEnemy = 5f;
     public float moveSpeed = 2.5f;
     [SerializeField] public float stopDistance = 0.1f;
     [SerializeField] public Player target;
+    [SerializeField] private int damage;
     public bool walking = false;
     private Rigidbody2D _rb;
     public Vector2 moveDirection;
 
     void ChaserEnemy()
     {
+        if (target == null) return; 
         moveDirection = (target.transform.position - transform.position).normalized;
         walking = moveDirection != Vector2.zero;
         _rb.velocity = moveDirection * moveSpeed;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Die();
+            Player player = collision.collider.GetComponent<Player>();
+            LifeController lifePlayer = collision.collider.GetComponent<LifeController>();
+            if (lifePlayer != null && player != null)
+            {
+                lifePlayer.TakeDamage(damage);
+                if (!lifePlayer.IsAlive())
+                {
+                    player.Die();
+                }
+                Die();
+            }
         }
     }
 
@@ -38,7 +50,7 @@ public class Enemy : LifeController
         }
     }
 
-    public override void Die()
+    public void Die()
     {
         Destroy(gameObject);
     }
